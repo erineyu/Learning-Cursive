@@ -9,8 +9,6 @@ I created an interactive app for kids to learn how to write cursive. Users pract
 4. The app analyzes accuracy by comparing the user’s stroke pattern to the sample letter.
 5. It provides feedback and a score based on how closely the user’s tracing matches the model.
 
-This environment was designed using an interactive canvas-based UI (for example, with p5.js or Figma prototype simulation).
-
 ## Why I Made It
 Handwriting practice apps often lack engagement for kids. My goal was to create a tool that combines fun interaction, freedom of choice, and visual feedback, so kids stay motivated while learning proper cursive technique.
 
@@ -37,24 +35,9 @@ The app encourages continued effort by providing action-oriented feedback. After
 ## How We Measure Learning
 The system measures learning through:
 - Accuracy scores (percentage match to model letter)
-- Progress tracking (average improvement across attempts)
-- Consistent feedback patterns (whether users correct specific errors like spacing or slant)
+- feedback
 
 Learning is demonstrated when users show higher accuracy scores and smoother letter formations after several attempts.
-
-
-
-## Test Results
-
-### 1 Instance Where the Environment Did Well
-The feedback scoring system worked smoothly and motivated users to retry letters. Test users enjoyed seeing their improvement visualized after each attempt.
-
-### 1 Instance Where It Struggled
-The pen tool input sometimes lagged, especially when switching tools mid-session. This caused tracing strokes to appear slightly delayed.
-
-### 2 Suggestions for Improvement
-1. Optimize pen input responsiveness — reduce delay when users switch tools.
-2. Add progression levels — for example, users unlock words after mastering individual letters to make practice feel more like a journey.
 
 
 ## How to Run
